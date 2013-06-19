@@ -8,9 +8,9 @@ attr = die.split('d')
 rolls = attr[0]
 sides = attr[1]
 
-output = []
+result = []
 
 for x in range(int(rolls)):
 	output.append(random.randint(2,int(sides)))
 
-print output
+print result
